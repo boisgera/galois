@@ -136,4 +136,8 @@ section
         apply is_glb_s_x.right
         assumption
 
+  theorem f_from_g (m : mgc f g) :
+    ∀ (x : X), IsLeast { y : Y | x ≤ g y } (f x) :=
+    sorry
+
 end
